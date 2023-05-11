@@ -284,6 +284,7 @@ span {
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 1fr;
     column-gap: 10px;
+    width: 100%;
 }
 
 .part {

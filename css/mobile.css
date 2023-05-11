@@ -111,12 +111,12 @@
     }
     #Project {
         padding-left: 10px !important;
-        width: fit-content;
+        width: 100%;
     }
     #Project .part {
         width: 40vh !important;
     }
     #Project .part img {
-        width: inherit;
+        width: 100%;
     }
 }

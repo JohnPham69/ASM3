@@ -89,7 +89,7 @@
     }
     #Project {
         padding-left: 10px !important;
-        width: inherit;
+        width: 100%;
     }
     #Project .part {
         width: 28vw !important;
@@ -101,7 +101,7 @@
         width: 90% !important;
     }
     .col_only {
-        width: fit-content !important;
+        width: 100% !important;
         margin: 0 !important;
     }
     .hoho {
