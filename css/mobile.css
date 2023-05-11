@@ -1,0 +1,122 @@
+@media screen and (min-width: 100px) and (max-width: 540px) {
+    .image_container {
+        height: 50vh;
+    }
+    .img1 {
+        object-fit: cover;
+        object-position: left;
+        width: auto !important;
+        width: 105vw !important;
+        height: 100vh;
+    }
+    nav {
+        border: none;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        text-align: center;
+        align-items: start;
+        padding-left: 0;
+    }
+    nav li {
+        border: none;
+        padding: 10px;
+    }
+    nav li:first-child {
+        border: none;
+    }
+    #smoller {
+        display: none;
+    }
+    .navbar {
+        padding: 0 !important;
+    }
+    .row1 {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 33em 33em;
+        width: 100vw;
+    }
+    .row1 .section {
+        width: 100vw;
+    }
+    .row1 .section-side {
+        width: 100% !important;
+        padding: 0 !important;
+        padding-left: 10px !important;
+        padding-right: 35px !important;
+        margin: 0 !important;
+    }
+    .row1 p,
+    h1 {
+        padding: 0 !important;
+        padding-right: 10px;
+    }
+    .row2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        row-gap: 20px;
+    }
+    .row2 .section {
+        padding: 0;
+        padding-left: 10px;
+        margin: 0 !important;
+        width: 80%;
+    }
+    .row-cerf {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        padding-left: 10px;
+    }
+    .f {
+        padding: 1em;
+        width: fit-content;
+        padding-left: 0;
+    }
+    .bob {
+        padding-left: 0;
+    }
+    .bor_yes {
+        border-left: none;
+    }
+    .col_only {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 20px;
+    }
+    .part {
+        padding: em;
+    }
+    .hoho {
+        font-size: 15px !important;
+    }
+    .sec {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 20%;
+        border-bottom: 1px solid #d6c08d;
+        height: fit-content;
+    }
+    .sec .part {
+        margin: 0;
+        height: fit-content;
+    }
+    .sponge {
+        border-left: none;
+    }
+    #Project {
+        padding-left: 10px !important;
+        width: fit-content;
+    }
+    #Project .part {
+        width: 40vh !important;
+    }
+    #Project .part img {
+        width: 100% !important;
+    }
+}
