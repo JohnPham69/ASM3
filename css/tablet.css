@@ -95,10 +95,7 @@
         width: 28vw !important;
     }
     #Project .part img {
-        width: inherit;
-    }
-    .be_smol img {
-        width: 33vh !important;
+        width: 100%;
     }
     .col_only .part {
         width: 90% !important;
