@@ -91,18 +91,16 @@
         padding-left: 10px !important;
         width: 100%;
     }
-    #Project .part {
-        width: 28vw !important;
-    }
     #Project .part img {
         width: 100%;
     }
     .col_only .part {
-        width: 90% !important;
+        width: 95% !important;
     }
     .col_only {
         width: 100% !important;
         margin: 0 !important;
+        column-gap: 10px;
     }
     .hoho {
         font-size: 20px !important;

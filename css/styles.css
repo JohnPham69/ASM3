@@ -281,10 +281,10 @@ span {
 
 .col_only {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     column-gap: 10px;
-    width: 100%;
+    width: 100vw;
 }
 
 .part {
@@ -292,7 +292,7 @@ span {
 }
 
 .col_only .part {
-    width: 50vh;
+    width: 95% !important;
 }
 
 .be_smol img {

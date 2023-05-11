@@ -87,7 +87,7 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
-        row-gap: 20px;
+        row-gap: 10px;
     }
     .part {
         padding: em;
