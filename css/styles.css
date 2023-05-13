@@ -9,14 +9,16 @@ p {
 }
 
 nav {
-    width: 100%;
+    width: fit-content;
     text-align: center;
     align-items: center;
+    justify-content: center;
     border: 1px solid black;
 }
 
 nav ul {
     list-style-type: none;
+    width: fit-content;
     margin: 0;
     padding: 0;
     display: grid;
@@ -24,6 +26,7 @@ nav ul {
     grid-template-rows: 1fr;
     justify-content: center;
     align-items: center;
+    column-gap: 10px;
     background-color: rgb(255, 255, 255);
     border-left: 1px solid #787878;
     border-right: 1px solid #787878;
@@ -280,6 +283,7 @@ span {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     border-bottom: 1px solid #d6c08d;
+    width: 100%;
 }
 
 .col_only {
@@ -292,6 +296,7 @@ span {
 
 .part {
     padding: 1em;
+    width: 100%;
 }
 
 .col_only .part {

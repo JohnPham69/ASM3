@@ -5,9 +5,11 @@
     .img1 {
         object-fit: cover;
         object-position: left;
-        width: auto !important;
-        width: 105vw !important;
+        width: 100% !important;
         height: 100vh;
+    }
+    .navbar {
+        justify-content: left !important
     }
     nav {
         border: none;
@@ -66,6 +68,9 @@
         margin: 0 !important;
         width: 80%;
     }
+    .row2 i {
+        font-size: 25px;
+    }
     .row-cerf {
         display: grid;
         grid-template-columns: 1fr;
@@ -90,7 +95,7 @@
         row-gap: 10px;
     }
     .part {
-        padding: em;
+        padding: 1em;
     }
     .hoho {
         font-size: 15px !important;
@@ -98,13 +103,16 @@
     .sec {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 50% 20%;
+        grid-template-rows: 58% 42%;
         border-bottom: 1px solid #d6c08d;
         height: fit-content;
     }
     .sec .part {
         margin: 0;
         height: fit-content;
+    }
+    .sec h6 {
+        font-size: 15px !important;
     }
     .sponge {
         border-left: none;
@@ -114,7 +122,7 @@
         width: 100%;
     }
     #Project .part {
-        width: 40vh !important;
+        width: 100% !important;
     }
     #Project .part img {
         width: 100%;

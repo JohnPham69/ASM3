@@ -1,4 +1,4 @@
-@media screen and (min-width: 541px) and (max-width: 1368px) {
+@media screen and (min-width: 541px) and (max-width: 1280px) {
     .image_container {
         height: 50vh;
         width: 100%;
@@ -6,20 +6,22 @@
     .img1 {
         object-fit: cover;
         object-position: center;
-        width: auto !important;
         width: 100% !important;
         height: 50vh;
-    }
-    .navbar {
-        width: 100% !important;
     }
     nav ul {
         display: grid;
         grid-template-columns: 23% 23% 8% 23% 23%;
         height: fit-content;
+        width: fit-content;
     }
     nav {
         height: auto;
+        width: fit-content;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
     }
     nav li {
         height: 30px;
@@ -75,8 +77,14 @@
     .sec {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: 68% 32%;
         border-bottom: 1px solid #d6c08d;
+    }
+    .sec h6 {
+        font-size: 15px !important;
+    }
+    .sec p {
+        font-size: 13px !important;
     }
     .bor_yes {
         border-left: 1px solid #d6c08d;
@@ -104,5 +112,11 @@
     }
     .hoho {
         font-size: 20px !important;
+    }
+}
+
+@media screen and (min-width: 820) and (max-width: 1180) {
+    .sec h6 {
+        font-size: 17px !important;
     }
 }

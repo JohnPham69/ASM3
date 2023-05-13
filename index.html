@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="./css/mobile.css">
 </head>
 
-<body style="width: 100vw;">
-    <div class="cv-document">
+<body style="width: inherit;">
+    <div class="cv-document" style="width: inherit;">
         <!--The banner-->
-        <div class="image-container">
+        <div class="image-container" style="width: inherit;">
             <img class="img1" src="images/chill.jpg" style="width: 100%; background-size: cover;" alt="chill banner">
             <div class="whyy"></div>
             <div class="text">
@@ -29,12 +29,12 @@
             </div>
         </div>
         <!--The top nav-->
-        <div class="navbar" style="width: 100%;  display: flex; padding-left: 35px; padding-right: 45px;">
-            <nav style="justify-content: center;">
+        <div class="navbar" style="width: inherit;  display: flex; justify-content: center;">
+            <nav>
                 <ul>
-                    <li><a href="#info" style="padding: 3px;"><i class="icon-user "></i>Thông tin</a></li>
-                    <li><a href="#hobby" style="padding: 3px;"><i class="icon-doc-text-inv "></i>Lý lịch</a></li>
-                    <li id="smoller">
+                    <li><a href="#info" style="padding: 3px;"><i class="icon-user"></i>Thông tin</a></li>
+                    <li><a href="#hobby" style="padding: 3px;"><i class="icon-doc-text-inv"></i>Lý lịch</a></li>
+                    <li id="smoller" style="border: none;">
                         <div style="padding: 0; margin: 0;">
                             <p class="he" style="display:block; padding-bottom: 0; margin-bottom: 0;">Phạm Xuân Gia Khang</p>
                             <p class=" he " style="padding: 0; display: inline; color: gray; font-size: 10px; padding-top: 0; margin-top: 0;">Full Stack Developer</p>
@@ -46,7 +46,7 @@
             </nav>
         </div>
         <!--The about me-->
-        <div class="row1 ">
+        <div class="row1" style="width: inherit;">
             <div class="section column" id="target" style="background-color: rgb(230, 230, 230); ">
                 <h1 class="section-title " style="padding-left: 30%; border: 0; display: inline-block; padding-top: 25px; color: #0e2452;text-transform: capitalize; ">Mục tiêu nghề nghiệp</h1>
                 <div class="section-content ">
@@ -55,7 +55,7 @@
                     </p>
                 </div>
             </div>
-            <div class="section-side column" id="info" style="background-color: rgb(219, 219, 219); padding-left: 30px; width: auto; ">
+            <div class="section-side column" id="info" style="background-color: rgb(219, 219, 219); padding-left: 30px; width: 97.7%; ">
                 <h1 class="section-title" style="width: 100%;">Thông tin cá nhân</h1>
                 <div class="section-content stu" id="email-form">
                     <form id="lamo_haha">
@@ -93,11 +93,11 @@
             </div>
 
         </div>
-        <div class="row2" id="ned_no_space" style="padding-top: 40px; padding-left: 1px; margin-left: 0; margin-right: 0; width: 100%;">
+        <div class="row2" id="ned_no_space" style="padding-top: 40px; padding-left: 1px; margin-left: 0; margin-right: 0; width: 100%; padding-right: 10px;">
             <div class="section col yes bruh box" id="experience" style="display: inline;">
                 <div class="new_div" id="el1">
                     <h3 class="section-title" style="display: inline;">Kinh nghiệm</h3>
-                    <i class="ic-toolbox" style="display: inline; padding-left: 25%; padding-top: 20px; font-size: 50px"></i><br>
+                    <i class="ic-toolbox" style="display: inline; padding-left: 25%; padding-top: 20px; font-size: 35px"></i><br>
                     <button class="frenchfries" id="b1" style="display: none;">▼View more</button>
                     <div class="section-content more" id="l1">
                         <div class="grid-container">
@@ -119,7 +119,7 @@
             <div class="section col box" id="hobby" style="display: inline;">
                 <div class="new_div" id="el2">
                     <h3 class="section-title" style="display: inline;">Sở thích</h3>
-                    <i class="ic-megaphone" style="display: inline; padding-left: 25%; padding-top: 20px; font-size: 50px"></i><br>
+                    <i class="ic-megaphone" style="display: inline; padding-left: 25%; padding-top: 20px; font-size: 35px"></i><br>
                     <button class="frenchfries" id="b2" style="display: none;">▼View more</button>
                     <div class="section-content more" id="l2">
                         <h4>Những việc thường làm:</h4>
@@ -153,7 +153,7 @@
             <div class="section col yes box" id="language" style="display: inline;">
                 <div class="new_div" id="el3">
                     <h3 class="section-title" style="display: inline;">Ngôn ngữ</h3>
-                    <i class="ic-mic" style="display: inline; padding-left: 25%; padding-top: 20px; font-size: 50px;"></i><br>
+                    <i class="ic-mic" style="display: inline; padding-left: 25%; padding-top: 20px; font-size: 35px;"></i><br>
                     <button class="frenchfries" id="b3" style="display: none;">▼View more</button>
                     <div class="section-content more" id="l3">
                         <h4>English - IELTS: 6.0</h4>
@@ -174,7 +174,7 @@
             <div class="section col bruh box" id="education" style="display: inline;">
                 <div class="new_div" id="el4">
                     <h3 class="section-title" style="display: inline;">Học vấn</h3>
-                    <i class="ic-pencil" style="display: inline; padding-left: 25%; font-size: 50px;"></i><br>
+                    <i class="ic-pencil" style="display: inline; padding-left: 25%; font-size: 35px;"></i><br>
                     <button class="frenchfries" id="b4" style="display: none;">▼View more</button>
                     <div class="grid-container more" id="l4">
                         <div>
@@ -196,7 +196,7 @@
             <div class="section col yes box" id="activity" style="display: inline; ">
                 <div class="new_div" id="el5">
                     <h3 class="section-title " style="display: inline;">Hoạt động</h3>
-                    <i class="ic-toolbox" style="display: inline; padding-left: 25%; font-size: 50px;"></i><br>
+                    <i class="ic-toolbox" style="display: inline; padding-left: 25%; font-size: 35px;"></i><br>
                     <button class="frenchfries" id="b5" style="display: none;">▼View more</button>
                     <div class="section-content more" id="l5">
                         <div>
@@ -215,7 +215,7 @@
             <div class="section col box" id="skill" style="display: inline;">
                 <div class="new_div" id="el6">
                     <h3 class="section-title " style="display: inline;">Kỹ năng</h3>
-                    <i class="ic-tools-2" style="display: inline; padding-left: 25%; font-size: 50px;"></i><br>
+                    <i class="ic-tools-2" style="display: inline; padding-left: 25%; font-size: 35px;"></i><br>
                     <button class="frenchfries" id="b6" style="display: none;">▼View more</button>
                     <div class="section-content more" id="l6">
                         <h4>HTML/CSS Fundamental:</h4>
@@ -243,30 +243,30 @@
             </div>
         </div>
         <!--The certificate-->
-        <div id="certificate" style="padding-top: 20px;">
+        <div id="certificate" style="padding-top: 20px; width: inherit;">
             <h3 class="section-title" style="border: none; padding-left: 20px;">Chứng nhận - Giải thưởng</h3>
             <div>
                 <ul style="list-style-type: none;" class="row-cerf">
-                    <li class="col-cerf f bob" style="margin-right: 0; margin-left: 0;">
+                    <li class="col-cerf f bob" style="margin-right: 0; margin-left: 0; width: 100%; height: fit-content;">
                         <div class="sec">
-                            <img class="part" src="images/Cert_WEB.png" alt="WEB certificate approved by Funix" style="width: 20em; padding-top: 0; padding-bottom: 0; margin-bottom: 32px;">
-                            <h6 class="part " style="display: inline; ">Chứng chỉ lập trình WEB - FUNIX<br>
+                            <img class="part" src="images/Cert_WEB.png" alt="WEB certificate approved by Funix" style="width: 97%; padding-top: 0; padding-bottom: 20px; margin-bottom: 32px;">
+                            <h6 class="part" style="font-size: 15px; display: inline; margin-bottom: 0;  height: fit-content;">Chứng chỉ lập trình WEB - FUNIX<br>
                                 <p style="margin: 0; padding: 1em 0 0 0; color: grey; ">- Chứng chỉ thuộc chương trình CCDN<br>- GPA: 8.6</p>
                             </h6>
                         </div>
                     </li>
-                    <li class=" col-cerf f sponge" style="margin-right: 0; margin-left: 0;">
+                    <li class=" col-cerf f sponge" style="margin-right: 0; margin-left: 0; width: 100%; height: fit-content;">
                         <div class="sec bor_yes">
-                            <img class="part" src="images/Cert_PRF.png" alt="JAVASCRIPT certificate approved by Funix" style="width: 20em; padding-top: 0; padding-bottom: 0; margin-bottom: 32px;">
-                            <h6 class="part" style="display: inline;">Chứng chỉ lập trình JAVASCRIPT - FUNIX<br>
+                            <img class="part" src="images/Cert_PRF.png" alt="JAVASCRIPT certificate approved by Funix" style="width: 97%; padding-top: 0; padding-bottom: 20px; margin-bottom: 32px;">
+                            <h6 class="part" style="font-size: 15px; display: inline; margin-bottom: 0; height: fit-content;">Chứng chỉ lập trình JAVASCRIPT - FUNIX<br>
                                 <p style="margin: 0; padding: 1em 0 0 0; color: grey;">- Chứng chỉ thuộc chương trình CCDN<br>- GPA: 8.9</p>
                             </h6>
                         </div>
                     </li>
-                    <li class="col-cerf f" style="margin-right: 0; margin-left: 0;">
+                    <li class="col-cerf f" style="margin-right: 0; margin-left: 0; width: 100%; height: fit-content;">
                         <div class="sec" style="border: none;">
-                            <img class="part" src="images/Cert_DBI.png" alt="DATABASE certificate approved by FUNIX" style="width: 20em; padding-top: 0; padding-bottom: 0; margin-bottom: 32px;">
-                            <h6 class="part" style="display: inline;">Chứng chỉ lập trình DATABASE - FUNIX<br>
+                            <img class="part" src="images/Cert_DBI.png" alt="DATABASE certificate approved by FUNIX" style="width: 97%; padding-top: 0; padding-bottom: 20px; margin-bottom: 32px;">
+                            <h6 class="part" style="font-size: 15px; display: inline; height: fit-content;">Chứng chỉ lập trình DATABASE - FUNIX<br>
                                 <p style="margin: 0; padding: 1em 0 0 0; color: grey;">- Chứng chỉ thuộc chương trình CCDN<br>- GPA: 8.0</p>
                             </h6>
                         </div>
@@ -275,7 +275,7 @@
             </div>
         </div>
         <!--Project, not link-->
-        <div id="Project" style="padding-left: 10px;">
+        <div id="Project" style="padding-left: 10px; padding-right: 10px;">
             <h3 style="border: none;">Dự án</h3>
             <div class="col_only" style="width: 100%;">
                 <div class="part be_smol" style="border: 1px solid #b4b4b4; width: 100%;">
